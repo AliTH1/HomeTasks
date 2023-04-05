@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskMethods\bin\Debug\net6.0\TaskMethods.exe
+C:\Users\alita\source\repos\TaskMethods\bin\Debug\net6.0\TaskMethods.deps.json
+C:\Users\alita\source\repos\TaskMethods\bin\Debug\net6.0\TaskMethods.runtimeconfig.json
+C:\Users\alita\source\repos\TaskMethods\bin\Debug\net6.0\TaskMethods.dll
+C:\Users\alita\source\repos\TaskMethods\bin\Debug\net6.0\TaskMethods.pdb
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.dll
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\refint\TaskMethods.dll
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.pdb
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\TaskMethods.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskMethods\obj\Debug\net6.0\ref\TaskMethods.dll
