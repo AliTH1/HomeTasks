@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\bin\Debug\net6.0\TaskAlgorithms.exe
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\bin\Debug\net6.0\TaskAlgorithms.deps.json
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\bin\Debug\net6.0\TaskAlgorithms.runtimeconfig.json
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\bin\Debug\net6.0\TaskAlgorithms.dll
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\bin\Debug\net6.0\TaskAlgorithms.pdb
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.dll
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\refint\TaskAlgorithms.dll
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.pdb
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\TaskAlgorithms.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskAlgorithms\TaskAlgorithms\obj\Debug\net6.0\ref\TaskAlgorithms.dll

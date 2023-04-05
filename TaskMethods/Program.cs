@@ -21,33 +21,39 @@
 
 
 #region Task2
-//PrintPrimeNumber(PrimeNumbers(18));
+PrintPrimeNumber(PrimeNumbers(9));
 
 
-//int[] PrimeNumbers(int number)
-//{
-//	int[] numbers = new int[0];
-//	int count = 0;
-//	for (int i = 2; i < number; i++)
-//	{
-//		if (number % i == 0)
-//		{
-//			Array.Resize(ref numbers, numbers.Length + 1);
-//			numbers[count] = i;
-//			count++;
-//		}
-//	}
+int[] PrimeNumbers(int number)
+{
+	int[] numbers = new int[0];
+	int count = 0;
+	int copyNumber = number;
+	for (int i = 2; i < number; i++)
+	{
+		if (number % i == 0)
+		{
+			while(copyNumber > 1)
+			{
+                Array.Resize(ref numbers, numbers.Length + 1);
+                numbers[count] = i;
+                count++;
 
-//	return numbers;
-//}
+				copyNumber /= i;
+            }
+		}
+	}
 
-//void PrintPrimeNumber(int[] numbers)
-//{
-//	foreach (var number in numbers)
-//	{
-//		Console.WriteLine(number);
-//	}
-//}
+	return numbers;
+}
+
+void PrintPrimeNumber(int[] numbers)
+{
+	foreach (var number in numbers)
+	{
+		Console.WriteLine(number);
+	}
+}
 #endregion
 
 
