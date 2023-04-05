@@ -21,25 +21,24 @@
 
 
 #region Task2
-PrintPrimeNumber(PrimeNumbers(9));
+PrintPrimeNumber(PrimeNumbers(121));
 
 
 int[] PrimeNumbers(int number)
 {
 	int[] numbers = new int[0];
 	int count = 0;
-	int copyNumber = number;
 	for (int i = 2; i < number; i++)
 	{
 		if (number % i == 0)
 		{
-			while(copyNumber > 1)
+			while(number > 1)
 			{
                 Array.Resize(ref numbers, numbers.Length + 1);
                 numbers[count] = i;
                 count++;
 
-				copyNumber /= i;
+				number /= i;
             }
 		}
 	}
