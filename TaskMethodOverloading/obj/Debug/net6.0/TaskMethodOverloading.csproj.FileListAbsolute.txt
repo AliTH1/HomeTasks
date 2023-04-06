@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskMethodOverloading\bin\Debug\net6.0\TaskMethodOverloading.exe
+C:\Users\alita\source\repos\TaskMethodOverloading\bin\Debug\net6.0\TaskMethodOverloading.deps.json
+C:\Users\alita\source\repos\TaskMethodOverloading\bin\Debug\net6.0\TaskMethodOverloading.runtimeconfig.json
+C:\Users\alita\source\repos\TaskMethodOverloading\bin\Debug\net6.0\TaskMethodOverloading.dll
+C:\Users\alita\source\repos\TaskMethodOverloading\bin\Debug\net6.0\TaskMethodOverloading.pdb
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.dll
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\refint\TaskMethodOverloading.dll
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.pdb
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\TaskMethodOverloading.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskMethodOverloading\obj\Debug\net6.0\ref\TaskMethodOverloading.dll
