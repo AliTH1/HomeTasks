@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskClassString\bin\Debug\net6.0\TaskClassString.exe
+C:\Users\alita\source\repos\TaskClassString\bin\Debug\net6.0\TaskClassString.deps.json
+C:\Users\alita\source\repos\TaskClassString\bin\Debug\net6.0\TaskClassString.runtimeconfig.json
+C:\Users\alita\source\repos\TaskClassString\bin\Debug\net6.0\TaskClassString.dll
+C:\Users\alita\source\repos\TaskClassString\bin\Debug\net6.0\TaskClassString.pdb
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.dll
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\refint\TaskClassString.dll
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.pdb
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\TaskClassString.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskClassString\obj\Debug\net6.0\ref\TaskClassString.dll
