@@ -38,7 +38,32 @@ Console.WriteLine(customString.Remove(word, 3));
 Console.Write("SubString: ");
 Console.WriteLine(customString.SubString(word, 1, 8));
 
-//Trim
-string word2 = "   Ali    ";
-Console.WriteLine("Trim: ");
-Console.Write(customString.Trim(word2));
+////Trim
+//string word2 = "   Ali dadada   ";
+//Console.WriteLine("Trim: ");
+//Console.Write(customString.Trim(word2));
+
+////Split
+//string word3 = "Hello World!";
+//string[] words = customString.Split(word3, ' ');
+
+//foreach (var item in words)
+//{
+//    Console.WriteLine(item);
+//}
+
+//Join
+
+
+//Compare
+Console.WriteLine(customString.Compare("abc", "ab"));
+Console.WriteLine(customString.Compare("abc", "abc"));
+Console.WriteLine(customString.Compare("ab", "abc"));
+
+//IsNullOrEmpty
+Console.WriteLine(customString.IsNullOrEmpty(""));
+Console.WriteLine(customString.IsNullOrEmpty(null));
+
+//IsNullOrWhiteSpace
+Console.WriteLine(customString.IsNullOrWhiteSpace(""));
+Console.WriteLine(customString.IsNullOrWhiteSpace(null));

@@ -96,14 +96,73 @@ namespace StringMethods
             return result;
         }
 
-        public string Trim(string str)
-        {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < str.Length; i++)
-            {
+        //public string Trim(string str)
+        //{
+        //    StringBuilder sb = new StringBuilder();
+        //    for (int i = 0; i < str.Length; i++)
+        //    {
+        //        if (str[i] == ' ')
+        //        {
+        //            continue;
+        //        }
+        //        else if (str[i] != ' ')
+        //        {
+        //            sb.Append(str[i]);
+        //        }
+        //    }
+        //    return sb.ToString();
+        //}
 
+        //public string[] Split(string str, char separator)
+        //{
+        //    string[] arr = new string[0];
+        //    int count = 0;
+        //    for (int i = 0; i < str.Length; i++)
+        //    {
+        //        count++;
+        //        Array.Resize(ref arr, arr.Length + 1);
+        //        if (str[i] == separator)
+        //        {
+
+        //        }
+        //    }
+        //}
+
+        public int Compare(string a, string b)
+        {
+            if(a == b)
+            {
+                return 0;
             }
-            return sb.ToString();
+            else if (a.Length > b.Length)
+            {
+                return 1;
+            }
+            return -1;
+        }
+
+        public bool IsNullOrEmpty(string str) 
+        {
+            if (str == "" || str == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool IsNullOrWhiteSpace(string str)
+        {
+            if (str == " " || str == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
