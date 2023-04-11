@@ -11,7 +11,7 @@ namespace StringMethods
         public string Empty = "";
 
 
-        public bool StartWith(string str, char checkValue)
+        public bool CStartWith(string str, char checkValue)
         {
             if (str[0] == checkValue)
             {
@@ -20,7 +20,7 @@ namespace StringMethods
             return false;
         }
 
-        public bool EndWith(string str, char checkValue)
+        public bool CEndWith(string str, char checkValue)
         {
             if (str[str.Length - 1] == checkValue)
             {
@@ -29,7 +29,7 @@ namespace StringMethods
             return false;
         }
 
-        public int Length(string str)
+        public int CLength(string str)
         {
             int count = 0;
             foreach (var item in str)
@@ -39,7 +39,7 @@ namespace StringMethods
             return count;
         }
 
-        public int IndexOf(string str, char checkValue)
+        public int CIndexOf(string str, char checkValue)
         {
             for (int i = 0; i < str.Length; i++)
             {
@@ -51,7 +51,7 @@ namespace StringMethods
             return -1;
         }
 
-        public int LastIndexOf(string str, char checkValue)
+        public int CLastIndexOf(string str, char checkValue)
         {
             for (int i = str.Length - 1; i >= 0; i--)
             {
@@ -63,7 +63,7 @@ namespace StringMethods
             return -1;
         }
 
-        public string Replace(string str, char replacement1, char replacement2)
+        public string CReplace(string str, char replacement1, char replacement2)
         {
             StringBuilder sb = new StringBuilder(str);
             for (int i = 0; i < str.Length; i++)
@@ -76,7 +76,7 @@ namespace StringMethods
             return sb.ToString();
         }
 
-        public string Remove(string str, int beginIndex)
+        public string CRemove(string str, int beginIndex)
         {
             string result = string.Empty;
             for (int i = 0; i < beginIndex; i++)
@@ -86,7 +86,7 @@ namespace StringMethods
             return result;
         }
 
-        public string SubString(string str, int startIndex, int length)
+        public string CSubString(string str, int startIndex, int length)
         {
             string result = string.Empty;
             for (int i = startIndex; i < length; i++)
@@ -96,7 +96,7 @@ namespace StringMethods
             return result;
         }
 
-        public string Trim(string str)
+        public string CTrim(string str)
         {
             StringBuilder sb = new StringBuilder();
             int count = 0;
@@ -113,7 +113,7 @@ namespace StringMethods
                 }
             }
 
-            for (int i = str.Length-1; i >= 0; i--)
+            for (int i = str.Length - 1; i >= 0; i--)
             {
                 if (str[i] == ' ')
                 {
@@ -126,7 +126,7 @@ namespace StringMethods
 
             }
 
-            for (int i = count; i < str.Length-countReverse; i++)
+            for (int i = count; i < str.Length - countReverse; i++)
             {
                 sb.Append(str[i]);
             }
@@ -134,7 +134,36 @@ namespace StringMethods
             return sb.ToString();
         }
 
-        public int Compare(string a, string b)
+        public string[] CSplit(string str, char separator)
+        {
+            string[] words = new string[0];
+
+
+
+
+            return words;
+        }
+
+        public string CJoin(string[] array, string join)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i+1 == array.Length)
+                {
+                    sb.Append(array[i]);
+                }
+                else
+                {
+                    sb.Append(array[i] + join);
+                }
+            }
+
+            return sb.ToString();
+        }
+
+        public int CCompare(string a, string b)
         {
             if (a == b)
             {
@@ -147,7 +176,7 @@ namespace StringMethods
             return -1;
         }
 
-        public bool IsNullOrEmpty(string str)
+        public bool CIsNullOrEmpty(string str)
         {
             if (str == "" || str == null)
             {
@@ -159,7 +188,7 @@ namespace StringMethods
             }
         }
 
-        public bool IsNullOrWhiteSpace(string str)
+        public bool CIsNullOrWhiteSpace(string str)
         {
             if (str == " " || str == null)
             {

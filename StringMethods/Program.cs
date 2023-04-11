@@ -8,51 +8,66 @@ string text = customString.Empty;
 //StartWith
 string word = "Hello World";
 Console.Write("StartWith: ");
-Console.WriteLine(customString.StartWith(word, 'H'));
+Console.WriteLine(customString.CStartWith(word, 'H'));
 
 //EndWith
 Console.Write("EndWith: ");
-Console.WriteLine(customString.EndWith(word, 'e'));
+Console.WriteLine(customString.CEndWith(word, 'e'));
 
 //Length
 Console.Write("Length: ");
-Console.WriteLine(customString.Length(word));
+Console.WriteLine(customString.CLength(word));
 
 //IndexOf
 Console.Write("IndexOf: ");
-Console.WriteLine(customString.IndexOf(word, 'W'));
+Console.WriteLine(customString.CIndexOf(word, 'W'));
 
 //LastIndexOf
 Console.Write("LastIndexOf: ");
-Console.WriteLine(customString.LastIndexOf(word, 'o'));
+Console.WriteLine(customString.CLastIndexOf(word, 'o'));
 
 //Replace
 Console.Write("Replace: ");
-Console.WriteLine(customString.Replace(word, 'o', 'Z'));
+Console.WriteLine(customString.CReplace(word, 'o', 'Z'));
 
 //Remove
 Console.Write("Remove: ");
-Console.WriteLine(customString.Remove(word, 3));
+Console.WriteLine(customString.CRemove(word, 3));
 
 //SubString
 Console.Write("SubString: ");
-Console.WriteLine(customString.SubString(word, 1, 8));
+Console.WriteLine(customString.CSubString(word, 1, 8));
 
 
 //Trim
 Console.Write("Trim: ");
-Console.WriteLine(customString.Trim("      Hello      World      "));
+Console.WriteLine(customString.CTrim("      Hello      World      "));
+
+
+//Split
+//Console.Write("Split");
+//foreach (var item in customString.CSplit("Hello World", ' '))
+//{
+//    Console.WriteLine(item);
+//}
+
+
+//Join
+string[] arr = { "C#", "Java", "Python" };
+
+Console.Write("Join: ");
+Console.WriteLine(customString.CJoin(arr, "-"));
 
 
 //Compare
-Console.WriteLine(customString.Compare("abc", "ab"));
-Console.WriteLine(customString.Compare("abc", "abc"));
-Console.WriteLine(customString.Compare("ab", "abc"));
+Console.WriteLine(customString.CCompare("abc", "ab"));
+Console.WriteLine(customString.CCompare("abc", "abc"));
+Console.WriteLine(customString.CCompare("ab", "abc"));
 
 //IsNullOrEmpty
-Console.WriteLine(customString.IsNullOrEmpty(""));
-Console.WriteLine(customString.IsNullOrEmpty(null));
+Console.WriteLine(customString.CIsNullOrEmpty(""));
+Console.WriteLine(customString.CIsNullOrEmpty(null));
 
 //IsNullOrWhiteSpace
-Console.WriteLine(customString.IsNullOrWhiteSpace(""));
-Console.WriteLine(customString.IsNullOrWhiteSpace(null));
+Console.WriteLine(customString.CIsNullOrWhiteSpace(""));
+Console.WriteLine(customString.CIsNullOrWhiteSpace(null));
