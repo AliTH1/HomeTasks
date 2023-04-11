@@ -38,21 +38,10 @@ Console.WriteLine(customString.Remove(word, 3));
 Console.Write("SubString: ");
 Console.WriteLine(customString.SubString(word, 1, 8));
 
-////Trim
-//string word2 = "   Ali dadada   ";
-//Console.WriteLine("Trim: ");
-//Console.Write(customString.Trim(word2));
 
-////Split
-//string word3 = "Hello World!";
-//string[] words = customString.Split(word3, ' ');
-
-//foreach (var item in words)
-//{
-//    Console.WriteLine(item);
-//}
-
-//Join
+//Trim
+Console.Write("Trim: ");
+Console.WriteLine(customString.Trim("      Hello      World      "));
 
 
 //Compare

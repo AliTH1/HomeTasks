@@ -96,41 +96,47 @@ namespace StringMethods
             return result;
         }
 
-        //public string Trim(string str)
-        //{
-        //    StringBuilder sb = new StringBuilder();
-        //    for (int i = 0; i < str.Length; i++)
-        //    {
-        //        if (str[i] == ' ')
-        //        {
-        //            continue;
-        //        }
-        //        else if (str[i] != ' ')
-        //        {
-        //            sb.Append(str[i]);
-        //        }
-        //    }
-        //    return sb.ToString();
-        //}
+        public string Trim(string str)
+        {
+            StringBuilder sb = new StringBuilder();
+            int count = 0;
+            int countReverse = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] == ' ')
+                {
+                    count++;
+                }
+                else if (str[i] != ' ')
+                {
+                    break;
+                }
+            }
 
-        //public string[] Split(string str, char separator)
-        //{
-        //    string[] arr = new string[0];
-        //    int count = 0;
-        //    for (int i = 0; i < str.Length; i++)
-        //    {
-        //        count++;
-        //        Array.Resize(ref arr, arr.Length + 1);
-        //        if (str[i] == separator)
-        //        {
+            for (int i = str.Length-1; i >= 0; i--)
+            {
+                if (str[i] == ' ')
+                {
+                    countReverse++;
+                }
+                else if (str[i] != ' ')
+                {
+                    break;
+                }
 
-        //        }
-        //    }
-        //}
+            }
+
+            for (int i = count; i < str.Length-countReverse; i++)
+            {
+                sb.Append(str[i]);
+            }
+
+            return sb.ToString();
+        }
 
         public int Compare(string a, string b)
         {
-            if(a == b)
+            if (a == b)
             {
                 return 0;
             }
@@ -141,7 +147,7 @@ namespace StringMethods
             return -1;
         }
 
-        public bool IsNullOrEmpty(string str) 
+        public bool IsNullOrEmpty(string str)
         {
             if (str == "" || str == null)
             {
