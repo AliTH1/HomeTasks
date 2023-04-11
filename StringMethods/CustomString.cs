@@ -137,9 +137,22 @@ namespace StringMethods
         public string[] CSplit(string str, char separator)
         {
             string[] words = new string[0];
-
-
-
+            string result = string.Empty;
+            int index = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] != separator)
+                {
+                    result += str[i];
+                }
+                else if (str[i] == separator)
+                {
+                    Array.Resize(ref words, words.Length + 1);
+                    words[index] = result;
+                    result = "";
+                    index++;
+                }
+            }
 
             return words;
         }
