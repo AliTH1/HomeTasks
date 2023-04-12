@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\bin\Debug\net6.0\TaskAccessModifiersEncaptulation.exe
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\bin\Debug\net6.0\TaskAccessModifiersEncaptulation.deps.json
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\bin\Debug\net6.0\TaskAccessModifiersEncaptulation.runtimeconfig.json
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\bin\Debug\net6.0\TaskAccessModifiersEncaptulation.dll
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\bin\Debug\net6.0\TaskAccessModifiersEncaptulation.pdb
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.dll
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\refint\TaskAccessModifiersEncaptulation.dll
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.pdb
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\TaskAccessModifiersEncaptulation.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskAccessModifiersEncaptulation\obj\Debug\net6.0\ref\TaskAccessModifiersEncaptulation.dll
