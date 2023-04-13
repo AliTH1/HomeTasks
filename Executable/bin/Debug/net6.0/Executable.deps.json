@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Executable/1.0.0": {
+        "dependencies": {
+          "CustomValidator": "1.0.0"
+        },
+        "runtime": {
+          "Executable.dll": {}
+        }
+      },
+      "CustomValidator/1.0.0": {
+        "runtime": {
+          "CustomValidator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Executable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomValidator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

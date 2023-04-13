@@ -7,22 +7,9 @@ using System.Threading.Tasks;
 
 namespace CustomValidator
 {
-    public class CustomValidators
+    public static class CustomValidators
     {
-
-        public CustomValidators(string username, string name, string surname, string password,
-            int age, int birthday)
-        {
-            UsernameValidator(username);
-            NameValidator(name);
-            SurnameValidator(surname);
-            PasswordValidator(password);
-            AgeValidator(age);
-            BirthdayValidator(birthday);
-        }
-
-
-        public string UsernameValidator(string username)
+        public static string UsernameValidator(string username)
         {
             if(username.Length > 2)
             {
@@ -31,7 +18,7 @@ namespace CustomValidator
             return "Incorrect username";
         }
 
-        public string NameValidator(string name)
+        public static string NameValidator(string name)
         {
             if (name.Length > 2) 
             {
@@ -40,7 +27,7 @@ namespace CustomValidator
             return "Incorrect name";
         }
 
-        public string SurnameValidator(string surname)
+        public static string SurnameValidator(string surname)
         {
             if (surname.Length > 2)
             {
@@ -49,7 +36,7 @@ namespace CustomValidator
             return "Incorrect surname";
         }
 
-        public string PasswordValidator(string password)
+        public static string PasswordValidator(string password)
         {
             string pattern = @"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$";
             if (Regex.IsMatch(password, pattern))
@@ -59,7 +46,7 @@ namespace CustomValidator
             return "Incorrect password";
         }
 
-        public int AgeValidator(int age)
+        public static int AgeValidator(int age)
         {
             if (age > 0)
             {
@@ -69,7 +56,7 @@ namespace CustomValidator
             return -1;
         }
 
-        public int BirthdayValidator(int birthday)
+        public static int BirthdayValidator(int birthday)
         {
             if (birthday > 1970)
             {
