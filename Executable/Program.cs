@@ -1,6 +1,6 @@
 ﻿using Executable;
 
-Person person = new Person("ali2002", "Ali", "Taghizada", "ali2002!", 21, 2002);
+Person person = new Person("ali2002", "Ali", "Taghizada", "Ali2002!", 21, 2002);
 
 Console.WriteLine(person.Username);
 Console.WriteLine(person.Name);

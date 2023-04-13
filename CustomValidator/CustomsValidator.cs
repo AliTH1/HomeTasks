@@ -38,7 +38,7 @@ namespace CustomValidator
 
         public static string PasswordValidator(string password)
         {
-            string pattern = @"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$";
+            string pattern = @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$";
             if (Regex.IsMatch(password, pattern))
             {
                 return password;
