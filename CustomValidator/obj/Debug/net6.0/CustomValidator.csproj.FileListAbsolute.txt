@@ -1,0 +1,12 @@
+C:\Users\alita\source\repos\CustomValidator\bin\Debug\net6.0\CustomValidator.deps.json
+C:\Users\alita\source\repos\CustomValidator\bin\Debug\net6.0\CustomValidator.dll
+C:\Users\alita\source\repos\CustomValidator\bin\Debug\net6.0\CustomValidator.pdb
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.AssemblyInfo.cs
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.dll
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\refint\CustomValidator.dll
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\CustomValidator.pdb
+C:\Users\alita\source\repos\CustomValidator\obj\Debug\net6.0\ref\CustomValidator.dll
