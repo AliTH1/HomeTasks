@@ -7,27 +7,91 @@ using System.Threading.Tasks;
 
 namespace CustomValidator
 {
-    public static class CustomValidators
+
+    #region StaticVersion
+    //public static class CustomValidators
+    //{
+    //public static string UsernameValidator(string username)
+    //{
+    //    if(username.Length > 2)
+    //    {
+    //        return username;
+    //    }
+    //    return "Incorrect username";
+    //}
+
+    //public static string NameValidator(string name)
+    //{
+    //    if (name.Length > 2) 
+    //    {
+    //        return name;
+    //    }
+    //    return "Incorrect name";
+    //}
+
+    //public static string SurnameValidator(string surname)
+    //{
+    //    if (surname.Length > 2)
+    //    {
+    //        return surname;
+    //    }
+    //    return "Incorrect surname";
+    //}
+
+    //public static string PasswordValidator(string password)
+    //{
+    //    string pattern = @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$";
+    //    if (Regex.IsMatch(password, pattern))
+    //    {
+    //        return password;
+    //    }
+    //    return "Incorrect password";
+    //}
+
+    //public static int AgeValidator(int age)
+    //{
+    //    if (age > 0)
+    //    {
+    //        return age;
+    //    }
+    //    Console.Write("Incorrect age: ");
+    //    return -1;
+    //}
+
+    //public static int BirthdayValidator(int birthday)
+    //{
+    //    if (birthday > 1970)
+    //    {
+    //        return birthday;
+    //    }
+    //    Console.Write("Incorrect birthday");
+    //    return -1;
+    //}
+    //}
+
+    #endregion
+
+    public class CustomValidators
     {
-        public static string UsernameValidator(string username)
+        public string UsernameValidator(string username)
         {
-            if(username.Length > 2)
+            if (username.Length > 2)
             {
                 return username;
             }
             return "Incorrect username";
         }
 
-        public static string NameValidator(string name)
+        public string NameValidator(string name)
         {
-            if (name.Length > 2) 
+            if (name.Length > 2)
             {
                 return name;
             }
             return "Incorrect name";
         }
 
-        public static string SurnameValidator(string surname)
+        public string SurnameValidator(string surname)
         {
             if (surname.Length > 2)
             {
@@ -36,9 +100,9 @@ namespace CustomValidator
             return "Incorrect surname";
         }
 
-        public static string PasswordValidator(string password)
+        public string PasswordValidator(string password)
         {
-            string pattern = @"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$";
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$";
             if (Regex.IsMatch(password, pattern))
             {
                 return password;
@@ -46,7 +110,7 @@ namespace CustomValidator
             return "Incorrect password";
         }
 
-        public static int AgeValidator(int age)
+        public int AgeValidator(int age)
         {
             if (age > 0)
             {
@@ -56,7 +120,7 @@ namespace CustomValidator
             return -1;
         }
 
-        public static int BirthdayValidator(int birthday)
+        public int BirthdayValidator(int birthday)
         {
             if (birthday > 1970)
             {
