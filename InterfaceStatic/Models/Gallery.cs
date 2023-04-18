@@ -9,14 +9,15 @@ namespace InterfaceStatic.Models
 {
     internal class Gallery
     {
-
         Car[] cars = new Car[0];
+        public int Id { get; set; }
 
 
         public void AddCar(Car car)
         {
             Array.Resize(ref cars, cars.Length + 1);
-            cars[Car.Id-1] = car;
+            cars[Id] = car;
+            Id++;
         }
 
         public void ShowAllCars()
@@ -32,18 +33,18 @@ namespace InterfaceStatic.Models
             return cars;
         }
 
-        public Car FindCarById(int id)
+        public string FindCarById(int id)
         {
-            return cars[id];
+            return cars[id].Name;
         }
 
-        public Car FindCarsBySpeedInterval(int minSpeed, int maxSpeed)
+        public string FindCarsBySpeedInterval(int minSpeed, int maxSpeed)
         {
             for (int i = 0; i < cars.Length; i++)
             {
                 if (cars[i].Speed > minSpeed && cars[i].Speed < maxSpeed)
                 {
-                    return cars[i];
+                    return cars[i].Name;
                 }
             }
             return null;
