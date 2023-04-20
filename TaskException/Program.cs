@@ -6,4 +6,4 @@ Console.WriteLine($"Name: {ali.Name} \nSurname: {ali.Surname} " +
 
 
 //Exception
-Human ali2 = new Human("Ali", "Taghizada", 0);
+//Human ali2 = new Human("Ali", "Taghizada", 0);
