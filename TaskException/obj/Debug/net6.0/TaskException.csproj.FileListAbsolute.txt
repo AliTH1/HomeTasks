@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskException\bin\Debug\net6.0\TaskException.exe
+C:\Users\alita\source\repos\TaskException\bin\Debug\net6.0\TaskException.deps.json
+C:\Users\alita\source\repos\TaskException\bin\Debug\net6.0\TaskException.runtimeconfig.json
+C:\Users\alita\source\repos\TaskException\bin\Debug\net6.0\TaskException.dll
+C:\Users\alita\source\repos\TaskException\bin\Debug\net6.0\TaskException.pdb
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.dll
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\refint\TaskException.dll
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.pdb
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\TaskException.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskException\obj\Debug\net6.0\ref\TaskException.dll
