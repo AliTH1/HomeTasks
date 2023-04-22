@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\ReflectionTask\bin\Debug\net6.0\ReflectionTask.exe
+C:\Users\alita\source\repos\ReflectionTask\bin\Debug\net6.0\ReflectionTask.deps.json
+C:\Users\alita\source\repos\ReflectionTask\bin\Debug\net6.0\ReflectionTask.runtimeconfig.json
+C:\Users\alita\source\repos\ReflectionTask\bin\Debug\net6.0\ReflectionTask.dll
+C:\Users\alita\source\repos\ReflectionTask\bin\Debug\net6.0\ReflectionTask.pdb
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.AssemblyInfo.cs
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.dll
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\refint\ReflectionTask.dll
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.pdb
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ReflectionTask.genruntimeconfig.cache
+C:\Users\alita\source\repos\ReflectionTask\obj\Debug\net6.0\ref\ReflectionTask.dll
