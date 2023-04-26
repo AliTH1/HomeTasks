@@ -1,0 +1,15 @@
+C:\Users\alita\source\repos\TaskUpDownCasting\bin\Debug\net6.0\TaskUpDownCasting.exe
+C:\Users\alita\source\repos\TaskUpDownCasting\bin\Debug\net6.0\TaskUpDownCasting.deps.json
+C:\Users\alita\source\repos\TaskUpDownCasting\bin\Debug\net6.0\TaskUpDownCasting.runtimeconfig.json
+C:\Users\alita\source\repos\TaskUpDownCasting\bin\Debug\net6.0\TaskUpDownCasting.dll
+C:\Users\alita\source\repos\TaskUpDownCasting\bin\Debug\net6.0\TaskUpDownCasting.pdb
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.csproj.AssemblyReference.cache
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.AssemblyInfoInputs.cache
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.AssemblyInfo.cs
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.csproj.CoreCompileInputs.cache
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.dll
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\refint\TaskUpDownCasting.dll
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.pdb
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\TaskUpDownCasting.genruntimeconfig.cache
+C:\Users\alita\source\repos\TaskUpDownCasting\obj\Debug\net6.0\ref\TaskUpDownCasting.dll
